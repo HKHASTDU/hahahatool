@@ -38,15 +38,15 @@ def banner():
 def Delay(value):
     while not(value <= 1):
         value -= 0.123
-        print(f'''{trang}[{xanh}DHP07{trang}] [{xanh}DELAY{trang}] [{xanh}{str(value)[0:5]}{trang}] [{vang}X    {trang}]''', '               ', end = '\r')
+        print(f'''{trang}[{xanh}NHK{trang}] [{xanh}DELAY{trang}] [{xanh}{str(value)[0:5]}{trang}] [{vang}X    {trang}]''', '               ', end = '\r')
         sleep(0.02)
-        print(f'''{trang}[{xanh}DHP07{trang}] [{xanh}DELAY{trang}] [{xanh}{str(value)[0:5]}{trang}] [ {vang}X   {trang}]''', '               ', end = '\r')
+        print(f'''{trang}[{xanh}NHK{trang}] [{xanh}DELAY{trang}] [{xanh}{str(value)[0:5]}{trang}] [ {vang}X   {trang}]''', '               ', end = '\r')
         sleep(0.02)
-        print(f'''{trang}[{xanh}DHP07{trang}] [{xanh}DELAY{trang}] [{xanh}{str(value)[0:5]}{trang}] [  {vang}X  {trang}]''', '               ', end = '\r')
+        print(f'''{trang}[{xanh}NHK{trang}] [{xanh}DELAY{trang}] [{xanh}{str(value)[0:5]}{trang}] [  {vang}X  {trang}]''', '               ', end = '\r')
         sleep(0.02)
-        print(f'''{trang}[{xanh}DHP07{trang}] [{xanh}DELAY{trang}] [{xanh}{str(value)[0:5]}{trang}] [   {vang}X {trang}]''', '               ', end = '\r')
+        print(f'''{trang}[{xanh}NHK{trang}] [{xanh}DELAY{trang}] [{xanh}{str(value)[0:5]}{trang}] [   {vang}X {trang}]''', '               ', end = '\r')
         sleep(0.02)
-        print(f'''{trang}[{xanh}DHP07{trang}] [{xanh}DELAY{trang}] [{xanh}{str(value)[0:5]}{trang}] [    {vang}X{trang}]''', '               ', end = '\r')
+        print(f'''{trang}[{xanh}NHK{trang}] [{xanh}DELAY{trang}] [{xanh}{str(value)[0:5]}{trang}] [    {vang}X{trang}]''', '               ', end = '\r')
         sleep(0.02)
 
 def decode_base64(encoded_str):
